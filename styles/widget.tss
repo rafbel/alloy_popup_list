@@ -1,0 +1,104 @@
+".backgroundGray":
+{
+    backgroundColor: "#eff3f4"
+}
+
+".backgroundWhite":
+{
+    backgroundColor: "#fff"
+}
+
+".zIndexLow":
+{
+    zIndex: 8
+}
+
+".zIndexHigh":
+{
+    zIndex: 9
+}
+
+".overlay": {
+	width: "100%",
+	height: "100%",
+	backgroundColor:"#000000",
+	opacity: "0.65",
+}
+
+".listWrapper":
+{
+    height: Ti.UI.SIZE,
+    width: "90%"
+}
+
+".vertical":
+{
+    layout: "vertical"
+}
+
+".container":
+{
+     height: "45",
+     left: "5%",
+     right:"5%",
+     width:"90%"
+}
+
+".horizontal":
+{
+    layout: "horizontal"
+}
+
+".foregroundBlue":
+{
+    color:"#366f90"
+}
+
+".foregroundBlack":
+{
+    color:"#666666"
+}
+
+".hintTextLightGray":
+{
+    hintTextColor:"#c4c4c4",
+}
+
+".borderCurved":
+{
+    borderRadius: 5
+}
+
+".borderWhite":
+{
+    borderColor:"#fff"
+}
+
+".borderGray":
+{
+    borderColor:"#b7bebf"
+}
+
+".backgroundTransparent":
+{
+    backgroundColor:"transparent"
+}
+
+".hintTextGray":
+{
+    hintTextColor:"#d9d9d9"
+}
+
+".fontLarge":
+{
+    font:
+    {
+        fontSize:16
+    }
+}
+".nameItem":
+{
+	left: 5,
+	 font:{ fontSize: 12 },
+	 color: "#666666"
+}

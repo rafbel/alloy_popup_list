@@ -1,0 +1,30 @@
+<Alloy>
+    <View height="Ti.UI.SIZE" id="wrapper">
+        <View class="container borderCurved borderTransparent backgroundWhite" id="viewContainer" top="10">
+            <Label class="fontLarge foregroundBlack backgroundTransparent" height="45" id="labelFieldText" left="1" right="53" text="Aguarde..."/>
+            <View bubbleParent="false" class="backgroundTransparent" height="45" id="viewDropdownIconHolder" right="7.5" width="45"/>
+        </View>
+        <View class="zIndexLow" height="Ti.UI.SIZE" id="viewListPopup" visible="false" width="Ti.UI.SIZE">
+            <View class="backgroundGray overlay" height="Ti.UI.FILL" id="viewOverlay" width="Ti.UI.FILL"/>
+            <View class="listWrapper vertical backgroundWhite zIndexHigh borderCurved">
+                <View height="40">
+                    <View height="Ti.UI.SIZE" id="viewDismissArrowHolder" right="5%" width="Ti.UI.SIZE"/>
+                </View>
+                <View class="container horizontal borderGray borderCurved" top="20">
+                    <View class="backgroundTransparent" height="45" id="viewSearchIconHolder" left="0" width="45"/>
+                    <TextField class="backgroundWhite fontLarge foregroundBlue borderCurved hintTextGray" hintText="Pesquisar" id="textFieldSearch" left="-1" right="5%"/>
+                </View>
+                <ListView height="250" id="listView" showVerticalScrollIndicator="true" top="20" defaultItemTemplate="listPopupItemTemplate">
+                	<Templates>
+                		<ItemTemplate name="listPopupItemTemplate">
+                			 <View class="backgroundWhite" height="Ti.UI.FILL" height="40" width="90%">
+                                <Label bindId="labelItem" class="nameItem" left="10"/>
+                            </View>
+                		</ItemTemplate>	
+                	</Templates>
+                    <ListSection id="listSection"/>
+                </ListView>
+            </View>
+        </View>
+    </View>
+</Alloy>
