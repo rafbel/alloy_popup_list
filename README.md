@@ -38,3 +38,5 @@ $.myPopupList.initialize(optionsArray,dropdownDefaultText,$.currentWindow, funct
 ```
 
 The widget comes with many other functions such as **setTop**,**setWidth**,**getSelectedValue**,**setSelectedValue**, and **setVisibility**.
+
+Some libraries from https://github.com/rafbel/titanium_libraries are required.
