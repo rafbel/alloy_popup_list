@@ -16,7 +16,7 @@ A search functionality becomes available and the user is able to scroll through 
 
 <img src="https://s7.postimg.org/bzidmsb57/Captura_de_Tela_2017-12-01_a_s_14.15.45.png" width="350"/>
 
-## Use it on your app!
+## Use it in your app!
 
 ##### Alloy
 ```
@@ -40,3 +40,4 @@ $.myPopupList.initialize(optionsArray,dropdownDefaultText,$.currentWindow, funct
 The widget comes with many other functions such as **setTop**,**setWidth**,**getSelectedValue**,**setSelectedValue**, and **setVisibility**.
 
 Some libraries from https://github.com/rafbel/titanium_libraries are required.
+This widget does not come with images like the "X" icon for example. They are required to run this widget (feel free to use any image you'd like).
